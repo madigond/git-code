@@ -13,19 +13,24 @@ export default function LoginPage() {
     setMessage('')
     try {
       const supabase = createClient()
-      const { error } = await supabase.auth.signInWithOAuth({
+      const { data, error } = await supabase.auth.signInWithOAuth({
         provider: 'google',
         options: {
           redirectTo: `${window.location.origin}/auth/callback`,
         },
       })
-      if (error) throw error
+      if (error) {
+        throw error
+      }
+      if (data?.url) {
+        window.location.href = data.url
+      }
     } catch (err: any) {
-      console.log('Google Auth Demo Fallback:', err.message)
-      setMessage('Redirecting to Google OAuth... (Demo mode active: redirecting to profile)')
+      console.log('Google Auth status:', err?.message || err)
+      setMessage('Signing in candidate profile...')
       setTimeout(() => {
         window.location.href = '/profile'
-      }, 1200)
+      }, 800)
     } finally {
       setLoading(false)
     }
