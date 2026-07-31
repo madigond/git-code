@@ -1,0 +1,47 @@
+[
+  {
+    "id": "vac-1",
+    "title": "UP Police Constable Bharti 2026",
+    "department": "Uttar Pradesh Police Recruitment Board (UPPRPB)",
+    "state": "Uttar Pradesh",
+    "fee": 400,
+    "deadline": "2026-08-15",
+    "totalPosts": "60,244 Posts",
+    "category_eligible": ["General", "OBC", "SC", "ST", "EWS"],
+    "qualification": "10th / 12th Pass",
+    "ageLimit": "18 - 25 Years",
+    "logo_url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=400&q=80",
+    "bgGradient": "from-purple-900/60 via-indigo-950/80 to-[#040506]",
+    "badgeColor": "bg-amber-500/20 text-amber-300 border-amber-500/30"
+  },
+  {
+    "id": "vac-2",
+    "title": "BPSC 70th Civil Services Exam",
+    "department": "Bihar Public Service Commission (BPSC)",
+    "state": "Bihar",
+    "fee": 600,
+    "deadline": "2026-08-30",
+    "totalPosts": "1,929 Posts",
+    "category_eligible": ["General", "BC", "EBC", "SC", "ST", "EWS"],
+    "qualification": "Bachelor's Degree",
+    "ageLimit": "20 - 37 Years",
+    "logo_url": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=400&q=80",
+    "bgGradient": "from-[#7C3AED]/40 via-purple-950/80 to-[#040506]",
+    "badgeColor": "bg-emerald-500/20 text-emerald-300 border-emerald-500/30"
+  },
+  {
+    "id": "vac-3",
+    "title": "SSC CGL 2026 Tier-1 Officer Posts",
+    "department": "Staff Selection Commission (SSC)",
+    "state": "All India",
+    "fee": 100,
+    "deadline": "2026-09-10",
+    "totalPosts": "17,727 Posts",
+    "category_eligible": ["General", "OBC", "SC", "ST", "EWS"],
+    "qualification": "Graduate",
+    "ageLimit": "18 - 32 Years",
+    "logo_url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=400&q=80",
+    "bgGradient": "from-blue-900/60 via-indigo-950/80 to-[#040506]",
+    "badgeColor": "bg-blue-500/20 text-blue-300 border-blue-500/30"
+  }
+]
